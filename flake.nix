@@ -33,7 +33,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
 
         tex = pkgs.texlive.combine {
-          inherit (pkgs.texlive) collection-latexextra collection-mathscience latexmk scheme-small bidi;
+          inherit (pkgs.texlive) collection-latexextra collection-luatex scheme-small luabidi;
         };
 
         easytimeline =
@@ -79,10 +79,18 @@
             tex
             pkgs.pandoc
             easytimeline
+
+            # Work around librsvg hiding links
+            pkgs.python3
           ];
 
           # Required by ploticus.
           GDFONTPATH = "${pkgs.gentium}/share/fonts/truetype";
+
+          # For LuaLaTeX.
+          OSFONTDIR = pkgs.lib.makeSearchPath "share/fonts" [
+            david-libre
+          ];
 
           # Used by Makefile
           CITATION_STYLES = citation-styles;

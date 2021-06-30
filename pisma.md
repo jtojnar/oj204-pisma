@@ -8,6 +8,16 @@ header-includes: |
 
     \setmainfont{Gentium Plus}
     \newfontfamily\hebrewfont{David Libre}
+
+    \RequirePackage{pdfmanagement-testphase}
+    \directlua{
+    -- Preserve links from imported packages
+    require("newpax")
+    newpax.writenewpax("timeline-aramaic")
+    }
+
+    \usepackage{newpax}
+    \newpaxsetup{usefileattributes=true}
 # footnotes are enough
 suppress-bibliography: true
 ---
