@@ -1,0 +1,42 @@
+ImageSize = width:900 height:auto barincrement:25
+PlotArea = left:100 bottom:80 top:10 right:80
+Alignbars = justify
+DateFormat = yyyy
+Period = from:-3200 till:2000
+TimeAxis = orientation:horizontal format:yyyy
+ScaleMajor = increment:500 start:-3200
+ScaleMinor = increment:100 start:-3200
+
+Colors =
+ id:lightgray value:gray(0.6)
+ id:lime value:rgb(0.513,0.968,0.223)
+
+LineData =
+ layer:back
+ color:lightgray
+ at:0 width: 1
+
+BarData =
+ bar:Hiero text:"Hieroglyfické"
+ bar:ProSin text:"Protosinajské"
+ bar:Phoe text:"Fénické"
+ bar:PaHe text:"Paleohebrejské"
+ bar:Sam text:"Samaritánské"
+ bar:Aram text:"Aramejské"
+ bar:Hebr text:"Hebrejské"
+ bar:Nabat text:"Nabatejské"
+ bar:Arab text:"Arabské"
+ bar:Brah text:"Bráhmí"
+
+PlotData=
+ width:11
+ bar:Hiero from:-3200 till:400 color:red
+ bar:ProSin from:-1850 till:-1500 color:blue
+ bar:Phoe from:-1050 till:-150 color:orange
+ bar:PaHe from:-1000 till:135 color:green
+ bar:Sam from:-600 till:end color:lime
+ bar:Aram from:-800 till:600 color:pink
+ bar:Hebr from:-150 till:end color:purple
+ bar:Nabat from:-200 till:400 color:black
+ bar:Arab from:400 till:end color:yellow
+ bar:Brah from:-300 till:500 color:teal
