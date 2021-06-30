@@ -1,0 +1,10 @@
+--- a/easytimeline
++++ b/easytimeline
+@@ -840,6 +840,7 @@
+                 $link = &EncodeURL(&NormalizeURL($link));
+ 
+                 $MapPNG = $true;
++                $MapSVG = $true;
+             }
+         }
+ 

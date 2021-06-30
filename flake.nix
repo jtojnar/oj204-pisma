@@ -47,6 +47,11 @@
             ];
           } ''
             install -D "${mediawiki-easytimeline}/EasyTimeline.pl" "$out/bin/easytimeline"
+
+            cd "$out/bin"
+            # Generate links in SVG
+            patch < ${./easytimeline-svg-map.patch}
+
             patchShebangs --host "$out/bin/easytimeline"
             wrapProgram "$out/bin/easytimeline" \
               --prefix PATH : "${pkgs.lib.makeBinPath [ pkgs.ploticus ]}"

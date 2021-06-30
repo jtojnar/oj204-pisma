@@ -9,7 +9,7 @@ pandoc_flags = \
 	--standalone
 
 %.svg: %.easytimeline
-	easytimeline -i $^ -f '"Gentium Plus"' -s -T $(shell mktemp -d)
+	easytimeline -i $^ -f '"Gentium Plus"' -m -T $(shell mktemp -d)
 
 pisma.pdf pisma.tex: pisma.md pisma.bib timeline-aramaic.svg
 	$(PANDOC) pisma.md \

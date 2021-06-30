@@ -17,16 +17,16 @@ LineData =
  at:0 width: 1
 
 BarData =
- bar:Hiero text:"Hieroglyfické"
- bar:ProSin text:"Protosinajské"
- bar:Phoe text:"Fénické"
- bar:PaHe text:"Paleohebrejské"
- bar:Sam text:"Samaritánské"
- bar:Aram text:"Aramejské"
- bar:Hebr text:"Hebrejské"
- bar:Nabat text:"Nabatejské"
- bar:Arab text:"Arabské"
- bar:Brah text:"Bráhmí"
+ bar:Hiero text:"Hieroglyfické" link:https://en.wikipedia.org/wiki/Egyptian_hieroglyphs
+ bar:ProSin text:"Protosinajské" link:https://en.wikipedia.org/wiki/Proto-Sinaitic_script
+ bar:Phoe text:"Fénické" link:https://en.wikipedia.org/wiki/Phoenician_alphabet
+ bar:PaHe text:"Paleohebrejské" link:https://en.wikipedia.org/wiki/Paleo-Hebrew_alphabet
+ bar:Sam text:"Samaritánské" link:https://en.wikipedia.org/wiki/Samaritan_script
+ bar:Aram text:"Aramejské" link:https://en.wikipedia.org/wiki/Arameic_script
+ bar:Hebr text:"Hebrejské" link:https://en.wikipedia.org/wiki/Hebrew_alphabet
+ bar:Nabat text:"Nabatejské" link:https://en.wikipedia.org/wiki/Nabataean_alphabet
+ bar:Arab text:"Arabské" link:https://en.wikipedia.org/wiki/Arabic_script
+ bar:Brah text:"Bráhmí" link:https://en.wikipedia.org/wiki/Brahmi_script
 
 PlotData=
  width:11
