@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Alef",
+        "symbol": "א"
+    },
+    {
+        "name": "Bet",
+        "symbol": "ב"
+    },
+    {
+        "name": "Gimel",
+        "symbol": "ג"
+    },
+    {
+        "name": "Dalet",
+        "symbol": "ד"
+    },
+    {
+        "name": "He",
+        "symbol": "ה"
+    },
+    {
+        "name": "Vav",
+        "symbol": "ו"
+    },
+    {
+        "name": "Zajin",
+        "symbol": "ז"
+    },
+    {
+        "name": "Chet",
+        "symbol": "ח"
+    },
+    {
+        "name": "Tet",
+        "symbol": "ט"
+    },
+    {
+        "name": "Jod",
+        "symbol": "י"
+    },
+    {
+        "name": "Kaf",
+        "symbol": "כ",
+        "final": "ך"
+    },
+    {
+        "name": "Lamed",
+        "symbol": "ל"
+    },
+    {
+        "name": "Mem",
+        "symbol": "מ",
+        "final": "ם"
+    },
+    {
+        "name": "Nun",
+        "symbol": "נ",
+        "final": "ן"
+    },
+    {
+        "name": "Samech",
+        "symbol": "ס"
+    },
+    {
+        "name": "Ajin",
+        "symbol": "ע"
+    },
+    {
+        "name": "Pe",
+        "symbol": "פ",
+        "final": "ף"
+    },
+    {
+        "name": "Cade",
+        "symbol": "צ",
+        "final": "ץ"
+    },
+    {
+        "name": "Kuf",
+        "symbol": "ק"
+    },
+    {
+        "name": "Reš",
+        "symbol": "ר"
+    },
+    {
+        "name": "Šin",
+        "symbol": "שׁ"
+    },
+    {
+        "name": "Tav",
+        "symbol": "ת"
+    }
+]

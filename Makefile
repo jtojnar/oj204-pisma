@@ -12,7 +12,7 @@ pandoc_flags = \
 	easytimeline -i $^ -f '"Gentium Plus"' -m -T $(shell mktemp -d)
 	python3 move-link-out-of-text.py $@
 
-pisma.pdf pisma.tex: pisma.md pisma.bib timeline-aramaic.svg
+pisma.pdf pisma.tex: pisma.md pisma.bib timeline-aramaic.svg hebrew-consonants.json hebrew-nikud.json
 	$(PANDOC) pisma.md \
 		$(pandoc_flags) \
 		-o $@

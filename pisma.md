@@ -3,11 +3,12 @@ title: Seminární práce – LgBB01 Písma světa
 author: Jan Tojnar, učo 433301
 header-includes: |
     \usepackage{polyglossia}
+    \usepackage[a4paper, total={6in, 8in}]{geometry}
     \setdefaultlanguage{czech}
     \setotherlanguages{hebrew,thai}
 
     \setmainfont{Gentium Plus}
-    \newfontfamily\hebrewfont{David Libre}
+    \newfontfamily\hebrewfont[Renderer=HarfBuzz,Script=Hebrew, Scale=MatchUppercase, Ligatures=TeX]{David Libre}
     \newfontfamily\thaifont{Sarabun}
 
     \RequirePackage{pdfmanagement-testphase}
@@ -19,21 +20,110 @@ header-includes: |
 
     \usepackage{newpax}
     \newpaxsetup{usefileattributes=true}
+
+    \usepackage{luacode}
+    \usepackage{multicol}
+    \begin{luacode}
+    require("lualibs.lua")
+    function load_json(path)
+        local file = io.open(path)
+        local jsonstring = file:read("*a")
+        return utilities.json.tolua(jsonstring)
+    end
+    function print_nikud(symbol)
+        tex.sprint(symbol.name .. " & \\texthebrew{" .. symbol.symbol .. "}\\\\")
+    end
+    \end{luacode}
+
+
 # footnotes are enough
 suppress-bibliography: true
 ---
 
-## Hebrejské písmo
-Hebrejsky: \texthebrew{אָלֶף־בֵּית עִבְרִי},‎ Alefbet ivri
+# Hebrejská abeceda \texthebrew{אָלֶף־בֵּית עִבְרִי}
 
-Vyvinulo se z Aramejského písma, které se rozšířilo v Perské říši (dynastie Achaimenovců). Aramejské písmo je následníkem písma Fénického, které se vyvinulo z písma Protosinajského, vzniklého z Egyptských hieroglyfů. Mezi další písma vzniklá z Aramejského písma patří písmo Nabatejců (ze kterého se vyvinulo Arabské písmo), Sogdské písmo (ze kterého pochází mj. Mongolské písmo) a písmo Bráhmí (ze kterého pochází velké množství písem jižní a jihovýchodní Asie). Pro zápis hebrejštiny nahradilo paleohebrejské písmo (vzniklé z Fénického písma), které zůstává do současnosti jako písmo Samaritánů. [@wiki_hebrew] [@wiki_aramaic]
+Vyvinula se z Aramejského písma, které se rozšířilo v Perské říši (dynastie Achaimenovců). Aramejské písmo je následníkem písma Fénického, které se vyvinulo z písma Protosinajského, vzniklého z Egyptských hieroglyfů. Mezi další písma vzniklá z Aramejského písma patří písmo Nabatejců (ze kterého se vyvinulo Arabské písmo), Sogdské písmo (ze kterého pochází mj. Mongolské písmo) a písmo Bráhmí (ze kterého pochází velké množství písem jižní a jihovýchodní Asie). Pro zápis hebrejštiny nahradilo paleohebrejské písmo (vzniklé z Fénického písma), které zůstává do současnosti jako písmo Samaritánů. [@wiki_hebrew] [@wiki_aramaic]
 
 ![Přibližná časová osa vývoje příbuzných písem](timeline-aramaic.svg)
 
-Používá se k zápisu hebrejštiny a dalších jazyků Židů (jidiš…), zejména na území Izraele, ale i jinde po světě, díky početné židovské diaspoře.
+Používá se k zápisu hebrejštiny a dalších jazyků Židů (jidiš, judeo-arabština…), zejména na území Izraele, ale i jinde po světě, díky početné židovské diaspoře.
 
-Zapisuje se horizontálně zprava doleva.
+Má 22 znaků, u kterých se nerozlišuje velikost písmen; pět z nich má odlišnou formu zápisu na konci slova. Jedná se o souhláskové písmo (abdžad), ale existují způsoby zápisu samohlásek pomocí diakritických znamének. Zapisuje se horizontálně zprava doleva.
 
-## Thajské písmo
+`\begin{multicols}{2}`{=latex}
+
+## Abeceda
+
+\begin{center}
+\begin{luacode}
+local jsondata = load_json('hebrew-consonants.json')
+tex.print('\\begin{tabular}{|c|c|c|}')
+tex.print('\\hline Název & Znak & Finála \\\\ \\hline')
+for key, symbol in pairs(jsondata) do
+    tex.print(symbol.name .. " & \\texthebrew{" .. symbol.symbol .. "} & \\texthebrew{" .. (symbol.final or "") .. "}\\\\")
+end
+tex.print('\\hline\\end{tabular}')
+\end{luacode}
+\end{center}
+
+\columnbreak
+
+## Diakritická znaménka
+
+### Šin
+
+Šin vyjadřuje dva různé zvuky v závislosti na umístění tečky – s tečkou nalevo \hebrewfont{שׂ} se čte /s/, zatímco s tečkou napravo \hebrewfont{שׁ} se čte /ʃ/.
+
+### Dageš \texthebrew{דָּגֵשׁ‎}
+
+\hebrewfont{ב‎}, \hebrewfont{ג‎}, \hebrewfont{ד‎}, \hebrewfont{כ‎}, \hebrewfont{פ‎} a \hebrewfont{ת‎} mají druhý tvar s tečkou uvnitř (dageš) s odlišnou výslovností: \newline
+\hebrewfont{בּ}, \hebrewfont{גּ‎‎}, \hebrewfont{דּ}, \hebrewfont{כּ} (finála \hebrewfont{ךּ‎}), \hebrewfont{פּ} a \hebrewfont{תּ}.
+
+### Nikud \texthebrew{נִקּוּד‎}
+
+Samohlásky se tradičně nevyznačovaly, ale pro jednoznačnost se začal používat systém diakritických znamének.
+
+\setlength{\columnsep}{-30pt}
+
+`\begin{multicols}{2}`{=latex}
+
+\begin{luacode}
+local jsondata = load_json('hebrew-nikud.json')
+tex.print('\\begin{tabular}{|c|c|}')
+tex.print('\\hline Název & Znak \\\\ \\hline')
+for key, symbol in pairs(jsondata) do
+    tex.print(symbol.name .. " & \\texthebrew{" .. symbol.symbol .. "} \\\\")
+end
+tex.print('\\hline\\end{tabular}')
+\end{luacode}
+
+\columnbreak
+
+(Kolečka reprezentují znaky, ke kterým se znaménka připojí.)
+
+V moderní hebrejštině je však preferováno naznačit samohlásky pomocí „slabých“ souhlásek: \hebrewfont{א‎}, \hebrewfont{ע‎}, \hebrewfont{י‎} a \hebrewfont{ו‎}. [@wiki_mater]
+
+`\end{multicols}`{=latex}
+`\end{multicols}`{=latex}
+
+### Šva \texthebrew{שְׁוָא‎}
+
+Dále existuje znaménko šva (\texthebrew{◌ְ}), které
+
+- samostatně vyjadřuje buď
+    + hlásku /e/, nebo
+    + že znak, který je jím označen se vyslovuje bez samohlásky
+- spolu se znaménky patach, kamec nebo segol vyjadřuje zkrácení samohlásky
+
+V moderní hebrejštině se foném „šva“ (ə) nevyskytuje a pro tento účel se tedy nepoužívá. [@wiki_shva]
+
+\pagebreak
+
+## Příklad textu
+\texthebrew{בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ׃ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם׃ וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר׃ וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר׃ וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ׃ וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם אֶחָד׃ פ} [@genesis_he]
+
+\textczech{Na počátku stvořil Bůh nebe a zemi. A země byla houšť a poušť — a tma byla nad propastí, a duch Boží vznášel se nad vodami. I pravil Bůh: budiž světlo! — I bylo světlo. I viděl Bůh světlo, že jest dobré, a oddělil Bůh světlo ode tmy. A nazval Bůh světlo dnem a tmu nazval nocí; a byl večer a bylo ráno, den jeden.} [@genesis_cs]
+
+# Thajské písmo
 
 Thajsky: \textthai{อักษรไทย}, akson thaj
