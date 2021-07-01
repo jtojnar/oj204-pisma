@@ -62,13 +62,17 @@
             install -Dt "$out/share/fonts/truetype" "${david}/fonts/"*.ttf
           '';
 
+        fonts = [
+          pkgs.gentium
+          # for sarabun
+          pkgs.google-fonts
+          david-libre
+        ];
+
         # Add fonts
         FONTCONFIG_FILE =
           pkgs.makeFontsConf {
-            fontDirectories = [
-              pkgs.gentium
-              david-libre
-            ];
+            fontDirectories = fonts;
           };
       in rec {
         packages = {
@@ -88,9 +92,7 @@
           GDFONTPATH = "${pkgs.gentium}/share/fonts/truetype";
 
           # For LuaLaTeX.
-          OSFONTDIR = pkgs.lib.makeSearchPath "share/fonts" [
-            david-libre
-          ];
+          OSFONTDIR = pkgs.lib.makeSearchPath "share/fonts" fonts;
 
           # Used by Makefile
           CITATION_STYLES = citation-styles;

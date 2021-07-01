@@ -8,6 +8,7 @@ header-includes: |
 
     \setmainfont{Gentium Plus}
     \newfontfamily\hebrewfont{David Libre}
+    \newfontfamily\thaifont{Sarabun}
 
     \RequirePackage{pdfmanagement-testphase}
     \directlua{
@@ -34,3 +35,5 @@ Používá se k zápisu hebrejštiny a dalších jazyků Židů (jidiš…), ze
 Zapisuje se horizontálně zprava doleva.
 
 ## Thajské písmo
+
+Thajsky: \textthai{อักษรไทย}, akson thaj
