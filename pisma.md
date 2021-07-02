@@ -129,6 +129,9 @@ V moderní hebrejštině se foném „šva“ (ə) nevyskytuje a pro tento úče
 
 ## Příklad textu
 
+\setlength{\columnsep}{-60pt}
+`\begin{multicols}{2}`{=latex}
+
 \textthai{
 ประเทศไทยรวมเลือดเนื้อชาติเชื้อไทย \\
 เป็นประชารัฐ ไผทของไทยทุกส่วน \\
@@ -144,12 +147,12 @@ V moderní hebrejštině se foném „šva“ (ə) nevyskytuje a pro tento úče
 Naše thajská krev Thajskou zemi pojí, \\
 každý kousek země patří nám. \\
 Již dlouho je svrchovaná, \\
-díky naší věčné jednotě. \\
-My, Thajští lidé milujeme mír, \\
-ale ve válce se nezalekneme. \\
-Nedopustíme nezávislosti ohrožení, \\
-budeme bojovat do posledního dechu. \\
+díky naší přetrvávající jednotě. \\
+My, Thajští lidé milujeme mír, ale ve válce se nezalekneme. \\
+Nedopustíme ohrožení nezávislosti \\
+a budeme bojovat do posledního dechu. \\
 Nechť Thajský národ vzkvétá a dlouho trvá vítězství. Hurá!
 } [^thai_anthem_cs]
+`\end{multicols}`{=latex}
 
 [^thai_anthem_cs]: Přeloženo s pomocí [Google Translate](https://translate.google.com), [Wiktionary](https://en.wiktionary.org/) a [thai-dictionary](http://www.thai-language.com/dict/) z thajského originálu, s konzultací anglických překladů na [Wikipedii](https://en.wikipedia.org/wiki/Thai_National_Anthem), [Wikisource](https://en.wikisource.org/wiki/Thai_National_Anthem) a [Thai Language Hut](https://www.thailanguagehut.com/thai-national-anthem-pleng-chaat-thai/) a [polského překladu](https://pl.wikipedia.org/wiki/Hymn_Tajlandii) na polské Wikipedii.
