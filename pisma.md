@@ -1,5 +1,5 @@
 ---
-title: Seminární práce – LgBB01 Písma světa
+title: Seminární práce – OJ204 Písma světa
 author: Jan Tojnar, učo 433301
 header-includes: |
     \usepackage{keep-footnotes-inside-nested-multicols}
