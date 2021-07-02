@@ -2,6 +2,7 @@
 title: Seminární práce – LgBB01 Písma světa
 author: Jan Tojnar, učo 433301
 header-includes: |
+    \usepackage{keep-footnotes-inside-nested-multicols}
     \usepackage{polyglossia}
     \usepackage[a4paper, total={6in, 8in}]{geometry}
     \setdefaultlanguage{czech}

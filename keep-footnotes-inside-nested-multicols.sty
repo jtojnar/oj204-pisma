@@ -1,0 +1,21 @@
+\makeatletter
+\newcommand{\global@insert}[2]% #1=box number, #2=vertical list
+{\bgroup
+  \setbox\@tempboxa=\box#1
+  \global\setbox#1=\vbox{\unvbox\@tempboxa #2}
+\egroup}
+
+\long\def\@footnotetext#1{\global@insert\footins{%
+ \reset@font\footnotesize
+ \interlinepenalty\interfootnotelinepenalty
+ \splittopskip\footnotesep
+ \splitmaxdepth \dp\strutbox \floatingpenalty \@MM
+ \hsize\columnwidth \@parboxrestore
+ \protected@edef\@currentlabel{%
+ \csname p@footnote\endcsname\@thefnmark
+ }%
+ \color@begingroup
+ \@makefntext{%
+ \rule\z@\footnotesep\ignorespaces#1\@finalstrut\strutbox}%
+ \color@endgroup}}%
+\makeatother
