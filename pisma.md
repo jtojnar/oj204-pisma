@@ -9,7 +9,7 @@ header-includes: |
 
     \setmainfont{Gentium Plus}
     \newfontfamily\hebrewfont[Renderer=HarfBuzz,Script=Hebrew, Scale=MatchUppercase, Ligatures=TeX]{David Libre}
-    \newfontfamily\thaifont{Sarabun}
+    \newfontfamily\thaifont[Script=Thai]{Sarabun}
 
     \RequirePackage{pdfmanagement-testphase}
     \directlua{
@@ -124,6 +124,31 @@ V moderní hebrejštině se foném „šva“ (ə) nevyskytuje a pro tento úče
 
 \textczech{Na počátku stvořil Bůh nebe a zemi. A země byla houšť a poušť — a tma byla nad propastí, a duch Boží vznášel se nad vodami. I pravil Bůh: budiž světlo! — I bylo světlo. I viděl Bůh světlo, že jest dobré, a oddělil Bůh světlo ode tmy. A nazval Bůh světlo dnem a tmu nazval nocí; a byl večer a bylo ráno, den jeden.} [@genesis_cs]
 
-# Thajské písmo
+# Thajské písmo \textthai{อักษรไทย}
 
-Thajsky: \textthai{อักษรไทย}, akson thaj
+## Příklad textu
+
+\textthai{
+ประเทศไทยรวมเลือดเนื้อชาติเชื้อไทย \\
+เป็นประชารัฐ ไผทของไทยทุกส่วน \\
+อยู่ดำรงคงไว้ได้ทั้งมวล \\
+ด้วยไทยล้วนหมาย รักสามัคคี \\
+ไทยนี้รักสงบ แต่ถึงรบไม่ขลาด \\
+เอกราชจะไม่ให้ใครข่มขี่ \\
+สละเลือดทุกหยาดเป็นชาติพลี \\
+เถลิงประเทศชาติไทยทวี มีชัย ชโย
+} [@wiki_thai_anthem]
+
+\textczech{
+Naše thajská krev Thajskou zemi pojí, \\
+každý kousek země patří nám. \\
+Již dlouho je svrchovaná, \\
+díky naší věčné jednotě. \\
+My, Thajští lidé milujeme mír, \\
+ale ve válce se nezalekneme. \\
+Nedopustíme nezávislosti ohrožení, \\
+budeme bojovat do posledního dechu. \\
+Nechť Thajský národ vzkvétá a dlouho trvá vítězství. Hurá!
+} [^thai_anthem_cs]
+
+[^thai_anthem_cs]: Přeloženo s pomocí [Google Translate](https://translate.google.com), [Wiktionary](https://en.wiktionary.org/) a [thai-dictionary](http://www.thai-language.com/dict/) z thajského originálu, s konzultací anglických překladů na [Wikipedii](https://en.wikipedia.org/wiki/Thai_National_Anthem), [Wikisource](https://en.wikisource.org/wiki/Thai_National_Anthem) a [Thai Language Hut](https://www.thailanguagehut.com/thai-national-anthem-pleng-chaat-thai/) a [polského překladu](https://pl.wikipedia.org/wiki/Hymn_Tajlandii) na polské Wikipedii.
