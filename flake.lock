@@ -3,11 +3,11 @@
     "citation-styles": {
       "flake": false,
       "locked": {
-        "lastModified": 1624847068,
-        "narHash": "sha256-3Hrl/seEV4uZZAgVfujKKppQBQ9aESYzaoTYj1vOEyY=",
+        "lastModified": 1625108862,
+        "narHash": "sha256-1MH+3tjo4XO1NZLBWnyOkz/YhH+qqF9fqXsX28e6xSo=",
         "owner": "citation-style-language",
         "repo": "styles",
-        "rev": "36ba508ff61a5147c0038653e0e7b1fea5216a2d",
+        "rev": "ec4a4c01ffb8d6785601e594f90e4d11e3fac443",
         "type": "github"
       },
       "original": {
@@ -66,11 +66,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1625025357,
-        "narHash": "sha256-oCjnjE5QltQx/e/IGLKnM52tjIGlgzFJwwlflOxAKWQ=",
+        "lastModified": 1625286343,
+        "narHash": "sha256-bTzz52TDRqjFR7/xKyoJxNz90bIHdXQXhOc5BBRFNAM=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "b236fe3d52d86143446e215bdf92121ee119a7f1",
+        "rev": "7918dc5148d7ce7b7e011a1186051693e14e1a4c",
         "type": "github"
       },
       "original": {
