@@ -84,6 +84,9 @@
             pkgs.pandoc
             easytimeline
 
+            # rsvg-convert is used by pandoc to convert SVGs to PDF.
+            pkgs.librsvg
+
             # Work around librsvg hiding links
             pkgs.python3
           ];
