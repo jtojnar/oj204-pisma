@@ -92,7 +92,7 @@
           GDFONTPATH = "${pkgs.gentium}/share/fonts/truetype";
 
           # For LuaLaTeX.
-          OSFONTDIR = pkgs.lib.makeSearchPath "share/fonts" fonts;
+          OSFONTDIR = pkgs.lib.makeSearchPath "share/fonts/truetype" fonts;
 
           # Used by Makefile
           CITATION_STYLES = citation-styles;
