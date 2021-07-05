@@ -84,7 +84,7 @@ tex.print('\\hline\\end{tabular}')
 
 Samohlásky se tradičně nevyznačovaly, ale pro jednoznačnost se začal používat systém diakritických znamének.
 
-\setlength{\columnsep}{-30pt}
+\setlength{\columnsep}{-10pt}
 
 `\begin{multicols}{2}`{=latex}
 
