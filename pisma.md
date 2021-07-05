@@ -14,7 +14,7 @@ header-includes: |
 
     \RequirePackage{pdfmanagement-testphase}
     \directlua{
-    -- Preserve links from imported packages
+    --[[ Preserve links from imported packages ]]
     require("newpax")
     newpax.writenewpax("timeline-aramaic")
     }
