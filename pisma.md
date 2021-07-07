@@ -58,14 +58,16 @@ Má 22 znaků, u kterých se nerozlišuje velikost písmen; pět z nich má odl
 \begin{center}
 \begin{luacode}
 local jsondata = load_json('hebrew-consonants.json')
-tex.print('\\begin{tabular}{|c|c|c|}')
-tex.print('\\hline Název & Znak & Finála \\\\ \\hline')
+tex.print('\\begin{tabular}{|c|c|c|c|}')
+tex.print('\\hline Název & Znak & Finála & Znění \\\\ \\hline')
 for key, symbol in pairs(jsondata) do
-    tex.print(symbol.name .. " & \\texthebrew{" .. symbol.symbol .. "} & \\texthebrew{" .. (symbol.final or "") .. "}\\\\")
+    tex.print(symbol.name .. " & \\texthebrew{" .. symbol.symbol .. "} & \\texthebrew{" .. (symbol.final or "") .. "} & " .. symbol.sound .. "\\\\")
 end
 tex.print('\\hline\\end{tabular}')
 \end{luacode}
 \end{center}
+
+Uváděná výslovnost odpovídá moderní standardní hebrejštině používané v Izraeli. V kulatých závorkách je uvedena výslovnost formy znaku s diakritickým znaménkem dageš (viz dále).
 
 \columnbreak
 

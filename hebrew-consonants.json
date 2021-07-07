@@ -1,95 +1,117 @@
 [
     {
         "name": "Alef",
+        "sound": "[ʔ], ∅",
         "symbol": "א"
     },
     {
         "name": "Bet",
+        "sound": "[v], [b]",
         "symbol": "ב"
     },
     {
         "name": "Gimel",
+        "sound": "[ɣ] ([ɡ])",
         "symbol": "ג"
     },
     {
         "name": "Dalet",
+        "sound": "[ð] ([d])",
         "symbol": "ד"
     },
     {
         "name": "He",
+        "sound": "[h]~[ʔ], ∅",
         "symbol": "ה"
     },
     {
         "name": "Vav",
+        "sound": "[v], [w]",
         "symbol": "ו"
     },
     {
         "name": "Zajin",
+        "sound": "[z]",
         "symbol": "ז"
     },
     {
         "name": "Chet",
+        "sound": "[x]~[χ]",
         "symbol": "ח"
     },
     {
         "name": "Tet",
+        "sound": "[t]",
         "symbol": "ט"
     },
     {
         "name": "Jod",
+        "sound": "[j]",
         "symbol": "י"
     },
     {
         "name": "Kaf",
+        "sound": "[x]~[χ] ([k])",
         "symbol": "כ",
         "final": "ך"
     },
     {
         "name": "Lamed",
+        "sound": "[l]",
         "symbol": "ל"
     },
     {
         "name": "Mem",
+        "sound": "[m]",
         "symbol": "מ",
         "final": "ם"
     },
     {
         "name": "Nun",
+        "sound": "[n]",
         "symbol": "נ",
         "final": "ן"
     },
     {
         "name": "Samech",
+        "sound": "[s]",
         "symbol": "ס"
     },
     {
         "name": "Ajin",
+        "sound": "[ʕ], ∅",
         "symbol": "ע"
     },
     {
         "name": "Pe",
+        "sound": "[f] ([p])",
         "symbol": "פ",
         "final": "ף"
     },
     {
         "name": "Cade",
+        "sound": "[t͡s]",
         "symbol": "צ",
         "final": "ץ"
     },
     {
         "name": "Kuf",
+        "sound": "[k]",
         "symbol": "ק"
     },
     {
         "name": "Reš",
+        "sound": "[ɣ]~[ʁ]",
         "symbol": "ר"
     },
     {
         "name": "Šin",
+        "sound": "[ʃ]/[s] viz dále",
         "symbol": "שׁ"
     },
     {
         "name": "Tav",
+        "sound": "[t]",
         "symbol": "ת"
     }
 ]
