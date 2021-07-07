@@ -82,6 +82,7 @@
           nativeBuildInputs = [
             tex
             pkgs.pandoc
+            pkgs.graphviz
             easytimeline
 
             # rsvg-convert is used by pandoc to convert SVGs to PDF.

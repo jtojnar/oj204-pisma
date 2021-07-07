@@ -1,0 +1,48 @@
+ImageSize = width:900 height:auto barincrement:25
+PlotArea = left:100 bottom:80 top:10 right:80
+Alignbars = justify
+DateFormat = yyyy
+Period = from:-800 till:2000
+TimeAxis = orientation:horizontal format:yyyy
+ScaleMajor = increment:500 start:-800
+ScaleMinor = increment:100 start:-800
+
+Colors =
+	id:lightgray value:gray(0.6)
+	id:lime value:rgb(0.513,0.968,0.223)
+
+LineData =
+	layer:back
+	color:lightgray
+	at:0 width: 1
+
+BarData =
+	bar:Aram text:"Aramejské" link:https://en.wikipedia.org/wiki/Arameic_script
+		bar:Brah text:"Bráhmí" link:https://en.wikipedia.org/wiki/Brahmi_script
+			bar:TaBra text:"Tamilské Bráhmí" link:https://en.wikipedia.org/wiki/Tamil-Brahmi
+				bar:Pall text:"Pallava" link:https://en.wikipedia.org/wiki/Pallava_script
+					bar:Khme text:"Khmérské" link:https://en.wikipedia.org/wiki/Khmer_script
+						bar:Sukh text:"Sukhothajské" link:https://en.wikipedia.org/wiki/Sukhothai_script
+							bar:Fakk text:"Fakkhamské" link:https://en.wikipedia.org/wiki/Fakkham_script
+								bar:Lao text:"Laoské" link:https://en.wikipedia.org/wiki/Lao_script
+							bar:Thai text:"Thajské" link:https://en.wikipedia.org/wiki/Thai_script
+								bar:TaiV text:"Tai Viet" link:https://en.wikipedia.org/wiki/Tai_Viet_script
+					bar:Kawi text:"Kawi" link:https://en.wikipedia.org/wiki/Kawi_script
+						bar:Java text:"Jávanské" link:https://en.wikipedia.org/wiki/Javanese_script
+			bar:Sinhala text:"Sinhálské" link:https://en.wikipedia.org/wiki/Sinhala_script
+
+PlotData=
+	width:11
+	bar:Aram from:-800 till:600 color:pink
+		bar:Brah from:-300 till:500 color:teal
+			bar:TaBra from:-300 till:100 color:green
+				bar:Pall from:400 till:800 color:lime
+					bar:Khme from:611 till:end color:purple
+						bar:Sukh from:1300 till:1400 color:black
+							bar:Fakk from:1400 till:1600 color:yelloworange
+								bar:Lao from:1350 till:end color:redorange
+							bar:Thai from:1283 till:end color:yellow
+								bar:TaiV from:1600 till:end color:coral
+					bar:Kawi from:800 till:1600 color:blue
+						bar:Java from:1500 till:end color:orange
+		bar:Sinhala from:300 till:end color:red

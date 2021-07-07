@@ -17,10 +17,14 @@ header-includes: |
     --[[ Preserve links from imported packages ]]
     require("newpax")
     newpax.writenewpax("timeline-aramaic")
+    newpax.writenewpax("lineage-thai")
+    newpax.writenewpax("timeline-thai")
     }
 
     \usepackage{newpax}
     \newpaxsetup{usefileattributes=true}
+
+    \usepackage{changepage}
 
     \usepackage{luacode}
     \usepackage{multicol}
@@ -128,6 +132,40 @@ V moderní hebrejštině se foném „šva“ (ə) nevyskytuje a pro tento úče
 \textczech{Na počátku stvořil Bůh nebe a zemi. A země byla houšť a poušť — a tma byla nad propastí, a duch Boží vznášel se nad vodami. I pravil Bůh: budiž světlo! — I bylo světlo. I viděl Bůh světlo, že jest dobré, a oddělil Bůh světlo ode tmy. A nazval Bůh světlo dnem a tmu nazval nocí; a byl večer a bylo ráno, den jeden.} [@genesis_cs]
 
 # Thajské písmo \textthai{อักษรไทย}
+
+Vyvinulo se ze Sukhothajského písma, které vzniklo zjednodušením písma Khmérského pro kursívu [@hartmann_1986], které bylo samotné adaptováno z písma Pallava, založeném na Tamilské variantě písma Bráhmí. Písmo Bráhmí pravděpodobně pochází z Aramejského písma. [@wiki_brahmi]  Dle legendy ho vytvořil v roce 1283 král Ram Khamhaeng veliký. [@wiki_thai] Jedná se o první písemný systém používající značky pro zapisování tónů. [@diller_1996]
+
+Používá se k zápisu thajštiny, jejích dialektů a jazyků některých etnik žijících na území Thajska a okolních států.
+
+![Přibližná časová osa vývoje příbuzných písem](timeline-thai.svg)
+
+\pagebreak
+<!-- Otherwise footnote will end on the previous page. -->
+
+![Částečný rodokmen jižní větve písem rodiny Bráhmí [@wiki_brahmic]](lineage-thai.svg)
+
+Zapisuje se horizontálně zleva doprava. Jedná se o tzv. abugidu, kde jednotlivé znaky obvykle reprezentují slabiky, tvořené souhláskou doplněnou o samohlásky ve formě znamének psanými nad, pod, nalevo nebo napravo od souhlásky, případně kombinací těchto možností. Obsahuje 44 symbolů pro souhlásky, 16 pro samohlásky (které lze kombinovat do alespoň 32 různých forem) a čtyři diakritická znaménka pro tóny.
+
+Thaiské písmo nemá odlišná malá a velká písmena. Obvykle se nepoužívají mezery mezi slovy. Mezery se používají k oddělování významných pauz (např. mezi větami).
+
+## Souhlásky
+
+\begin{adjustwidth}{-1.5cm}{-1.5cm}
+\begin{luacode}
+local jsondata = load_json('thai-consonants.json')
+tex.print('\\begin{tabular}{|c|l|l|c|c|c|c|}')
+tex.print('\\hline Znak & Název & Význam & Znění & Fin. zn. & Skupina & Poznámka \\\\ \\hline')
+for key, symbol in pairs(jsondata) do
+    tex.print("\\textthai{" .. symbol.symbol .. "} & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") & " .. symbol.name_cs .. " & " .. symbol.sound .. " & " .. symbol.sound_fin .. " & " .. symbol.class .. " & " .. (symbol.note or "") .. " \\\\")
+end
+tex.print('\\hline\\end{tabular}')
+\end{luacode}
+\end{adjustwidth}
+
+Thajské písmo neobsahuje složené souhlásky, které jsou časté u ostatních bráhmických písem (jako Barmské nebo Balijské).
+
+## Samohlásky
+
 
 ## Příklad textu
 

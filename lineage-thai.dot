@@ -1,0 +1,35 @@
+digraph {
+Aram [label="Aramejské" href="https://en.wikipedia.org/wiki/Arameic_script"]
+    Brah [label="Bráhmí" href="https://en.wikipedia.org/wiki/Brahmi_script"]
+        TaBra [label="Tamilské Bráhmí" href="https://en.wikipedia.org/wiki/Tamil-Brahmi"]
+            Pall [label="Pallava" href="https://en.wikipedia.org/wiki/Pallava_script"]
+                Khme [label="Khmérské" href="https://en.wikipedia.org/wiki/Khmer_script"]
+                    Sukh [label="Sukhothajské" href="https://en.wikipedia.org/wiki/Sukhothai_script"]
+                        Fakk [label="Fakkhamské" href="https://en.wikipedia.org/wiki/Fakkham_script"]
+                            Lao [label="Laoské" href="https://en.wikipedia.org/wiki/Lao_script"]
+                        Thai [label="Thajské" style=filled fillcolor=yellow href="https://en.wikipedia.org/wiki/Thai_script"]
+                            TaiV [label="Tai Viet" href="https://en.wikipedia.org/wiki/Tai_Viet_script"]
+                Kawi [label="Kawi" href="https://en.wikipedia.org/wiki/Kawi_script"]
+                    Java [label="Jávanské" href="https://en.wikipedia.org/wiki/Javanese_script"]
+                Grantha [label="Grantha" href="https://en.wikipedia.org/wiki/Grantha_script"]
+                    Mala [label="Malajálamské" href="https://en.wikipedia.org/wiki/Malayalam_script"]
+                Burm [label="Barmské" href="https://en.wikipedia.org/wiki/Burmese_alphabet"]
+        Kadamba [label="Kadamba" href="https://en.wikipedia.org/wiki/Kadamba_script"]
+            Kannada [label="Kannadské" href="https://en.wikipedia.org/wiki/Kannada_script"]
+            Pyu [label="Pyu" href="https://en.wikipedia.org/wiki/Pyu_script"]
+            Telugu [label="Telugské" href="https://en.wikipedia.org/wiki/Telugu_script"]
+        Sinhala [label="Sinhálské" href="https://en.wikipedia.org/wiki/Sinhala_script"]
+        Tamil [label="Tamilské" href="https://en.wikipedia.org/wiki/Tamil_script"]
+
+Aram -> Brah -> TaBra -> Pall -> Khme -> Sukh -> Fakk -> Lao
+                                                    Sukh -> Thai -> TaiV
+                                Pall -> Kawi -> Java
+                                Pall -> Grantha -> Mala
+                                Pall -> Tamil
+                                Pall -> Burm [style=dotted label="?"]
+          Brah -> Kadamba
+                    Kadamba -> Kannada
+                    Kadamba -> Pyu -> Burm [style=dotted label="?"]
+                    Kadamba -> Telugu
+          Brah -> Sinhala
+}

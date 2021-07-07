@@ -1,0 +1,400 @@
+[
+    {
+        "name": "ก ไก่",
+        "name_rtgs": "ko kai",
+        "name_cs": "kuře",
+        "sound": "[k]",
+        "sound_fin": "[k̚]",
+        "class": "mid",
+        "symbol": "ก"
+    },
+    {
+        "name": "ข ไข่",
+        "name_rtgs": "kho khai",
+        "name_cs": "vejce",
+        "sound": "[kʰ]",
+        "sound_fin": "[k̚]",
+        "class": "high",
+        "symbol": "ข"
+    },
+    {
+        "name": "ฃ ขวด",
+        "name_rtgs": "kho khuat",
+        "name_cs": "lahev",
+        "sound": "[kʰ]",
+        "sound_fin": "[k̚]",
+        "class": "high",
+        "note": "archaické",
+        "symbol": "ฃ"
+    },
+    {
+        "name": "ค ควาย",
+        "name_rtgs": "kho khwai",
+        "name_cs": "vodní bůvol",
+        "sound": "[kʰ]",
+        "sound_fin": "[k̚]",
+        "class": "low",
+        "symbol": "ค"
+    },
+    {
+        "name": "ฅ คน",
+        "name_rtgs": "kho khon",
+        "name_cs": "osoba",
+        "sound": "[kʰ]",
+        "sound_fin": "[k̚]",
+        "class": "low",
+        "note": "archaické",
+        "symbol": "ฅ"
+    },
+    {
+        "name": "ฆ ระฆัง",
+        "name_rtgs": "kho ra-khang",
+        "name_cs": "zvon",
+        "sound": "[kʰ]",
+        "sound_fin": "[k̚]",
+        "class": "low",
+        "symbol": "ฆ"
+    },
+    {
+        "name": "ง งู",
+        "name_rtgs": "ngo ngu",
+        "name_cs": "had",
+        "sound": "[ŋ]",
+        "sound_fin": "[ŋ]",
+        "class": "low",
+        "symbol": "ง"
+    },
+    {
+        "name": "จ จาน",
+        "name_rtgs": "cho chan",
+        "name_cs": "talíř",
+        "sound": "[tɕ]",
+        "sound_fin": "[t̚]",
+        "class": "mid",
+        "symbol": "จ"
+    },
+    {
+        "name": "ฉ ฉิ่ง",
+        "name_rtgs": "cho ching",
+        "name_cs": "činely",
+        "sound": "[tɕʰ]",
+        "sound_fin": "–",
+        "class": "high",
+        "symbol": "ฉ"
+    },
+    {
+        "name": "ช ช้าง",
+        "name_rtgs": "cho chang",
+        "name_cs": "slon",
+        "sound": "[tɕʰ]",
+        "sound_fin": "[t̚]",
+        "class": "low",
+        "symbol": "ช"
+    },
+    {
+        "name": "ซ โซ่",
+        "name_rtgs": "so so",
+        "name_cs": "řetěz",
+        "sound": "[s]",
+        "sound_fin": "[t̚]",
+        "class": "low",
+        "symbol": "ซ"
+    },
+    {
+        "name": "ฌ เฌอ",
+        "name_rtgs": "cho choe",
+        "name_cs": "keř",
+        "sound": "[tɕʰ]",
+        "sound_fin": "–",
+        "class": "low",
+        "symbol": "ฌ"
+    },
+    {
+        "name": "ญ หญิง",
+        "name_rtgs": "yo ying",
+        "name_cs": "žena",
+        "sound": "[j]",
+        "sound_fin": "[n]",
+        "class": "low",
+        "symbol": "ญ"
+    },
+    {
+        "name": "ฎ ชฎา",
+        "name_rtgs": "do cha-da",
+        "name_cs": "dlouhá čepice",
+        "sound": "[d]",
+        "sound_fin": "[t̚]",
+        "class": "mid",
+        "symbol": "ฎ"
+    },
+    {
+        "name": "ฏ ปฏัก",
+        "name_rtgs": "to pa-tak",
+        "name_cs": "bodec na pohánění dobytka",
+        "sound": "[t]",
+        "sound_fin": "[t̚]",
+        "class": "mid",
+        "symbol": "ฏ"
+    },
+    {
+        "name": "ฐ ฐาน",
+        "name_rtgs": "tho than",
+        "name_cs": "podstavec",
+        "sound": "[tʰ]",
+        "sound_fin": "[t̚]",
+        "class": "high",
+        "symbol": "ฐ"
+    },
+    {
+        "name": "ฑ มณโฑ",
+        "name_rtgs": "tho montho",
+        "name_cs": "Mandódarí, postava z eposu Rámajána",
+        "sound": "[tʰ] nebo [d]",
+        "sound_fin": "[t̚]",
+        "class": "low",
+        "symbol": "ฑ"
+    },
+    {
+        "name": "ฒ ผู้เฒ่า",
+        "name_rtgs": "tho phu-thao",
+        "name_cs": "starší",
+        "sound": "[tʰ]",
+        "sound_fin": "[t̚]",
+        "class": "low",
+        "symbol": "ฒ"
+    },
+    {
+        "name": "ณ เณร",
+        "name_rtgs": "no nen",
+        "name_cs": "novic",
+        "sound": "[n]",
+        "sound_fin": "[n]",
+        "class": "low",
+        "symbol": "ณ"
+    },
+    {
+        "name": "ด เด็ก",
+        "name_rtgs": "do dek",
+        "name_cs": "dítě",
+        "sound": "[d]",
+        "sound_fin": "[t̚]",
+        "class": "mid",
+        "symbol": "ด"
+    },
+    {
+        "name": "ต เต่า",
+        "name_rtgs": "to tao",
+        "name_cs": "želva",
+        "sound": "[t]",
+        "sound_fin": "[t̚]",
+        "class": "mid",
+        "symbol": "ต"
+    },
+    {
+        "name": "ถ ถุง",
+        "name_rtgs": "tho thung",
+        "name_cs": "pytel",
+        "sound": "[tʰ]",
+        "sound_fin": "[t̚]",
+        "class": "high",
+        "symbol": "ถ"
+    },
+    {
+        "name": "ท ทหาร",
+        "name_rtgs": "tho thahan",
+        "name_cs": "voják",
+        "sound": "[tʰ]",
+        "sound_fin": "[t̚]",
+        "class": "low",
+        "symbol": "ท"
+    },
+    {
+        "name": "ธ ธง",
+        "name_rtgs": "tho thong",
+        "name_cs": "vlajka",
+        "sound": "[tʰ]",
+        "sound_fin": "[t̚]",
+        "class": "low",
+        "symbol": "ธ"
+    },
+    {
+        "name": "น หนู",
+        "name_rtgs": "no nu",
+        "name_cs": "myš",
+        "sound": "[n]",
+        "sound_fin": "[n]",
+        "class": "low",
+        "symbol": "น"
+    },
+    {
+        "name": "บ ใบไม้",
+        "name_rtgs": "bo baimai",
+        "name_cs": "list",
+        "sound": "[b]",
+        "sound_fin": "[p̚]",
+        "class": "mid",
+        "symbol": "บ"
+    },
+    {
+        "name": "ป ปลา",
+        "name_rtgs": "po pla",
+        "name_cs": "ryba",
+        "sound": "[p]",
+        "sound_fin": "[p̚]",
+        "class": "mid",
+        "symbol": "ป"
+    },
+    {
+        "name": "ผ ผึ้ง",
+        "name_rtgs": "pho phueng",
+        "name_cs": "včela",
+        "sound": "[pʰ]",
+        "sound_fin": "–",
+        "class": "high",
+        "symbol": "ผ"
+    },
+    {
+        "name": "ฝ ฝา",
+        "name_rtgs": "fo fa",
+        "name_cs": "víčko",
+        "sound": "[f]",
+        "sound_fin": "–",
+        "class": "high",
+        "symbol": "ฝ"
+    },
+    {
+        "name": "พ พาน",
+        "name_rtgs": "pho phan",
+        "name_cs": "tác",
+        "sound": "[pʰ]",
+        "sound_fin": "[p̚]",
+        "class": "low",
+        "symbol": "พ"
+    },
+    {
+        "name": "ฟ ฟัน",
+        "name_rtgs": "fo fan",
+        "name_cs": "zuby",
+        "sound": "[f]",
+        "sound_fin": "[p̚]",
+        "class": "low",
+        "symbol": "ฟ"
+    },
+    {
+        "name": "ภ สำเภา",
+        "name_rtgs": "pho sam-phao",
+        "name_cs": "plachetnice",
+        "sound": "[pʰ]",
+        "sound_fin": "[p̚]",
+        "class": "low",
+        "symbol": "ภ"
+    },
+    {
+        "name": "ม ม้า",
+        "name_rtgs": "mo ma",
+        "name_cs": "kůň",
+        "sound": "[m]",
+        "sound_fin": "[m]",
+        "class": "low",
+        "symbol": "ม"
+    },
+    {
+        "name": "ย ยักษ์",
+        "name_rtgs": "yo yak",
+        "name_cs": "obr",
+        "sound": "[j]",
+        "sound_fin": "– nebo [n]",
+        "class": "low",
+        "symbol": "ย"
+    },
+    {
+        "name": "ร เรือ",
+        "name_rtgs": "ro ruea",
+        "name_cs": "loď",
+        "sound": "[r]",
+        "sound_fin": "[n]",
+        "class": "low",
+        "symbol": "ร"
+    },
+    {
+        "name": "ล ลิง",
+        "name_rtgs": "lo ling",
+        "name_cs": "opice",
+        "sound": "[l]",
+        "sound_fin": "[n]",
+        "class": "low",
+        "symbol": "ล"
+    },
+    {
+        "name": "ว แหวน",
+        "name_rtgs": "wo waen",
+        "name_cs": "prsten",
+        "sound": "[w]",
+        "sound_fin": "–",
+        "class": "low",
+        "symbol": "ว"
+    },
+    {
+        "name": "ศ ศาลา",
+        "name_rtgs": "so sala",
+        "name_cs": "pavilón",
+        "sound": "[s]",
+        "sound_fin": "[t̚]",
+        "class": "high",
+        "symbol": "ศ"
+    },
+    {
+        "name": "ษ ฤๅษี",
+        "name_rtgs": "so rue-si",
+        "name_cs": "poustevník",
+        "sound": "[s]",
+        "sound_fin": "[t̚]",
+        "class": "high",
+        "symbol": "ษ"
+    },
+    {
+        "name": "ส เสือ",
+        "name_rtgs": "so suea",
+        "name_cs": "tygr",
+        "sound": "[s]",
+        "sound_fin": "[t̚]",
+        "class": "high",
+        "symbol": "ส"
+    },
+    {
+        "name": "ห หีบ",
+        "name_rtgs": "ho hip",
+        "name_cs": "truhla",
+        "sound": "[h]",
+        "sound_fin": "–",
+        "class": "high",
+        "symbol": "ห"
+    },
+    {
+        "name": "ฬ จุฬา",
+        "name_rtgs": "lo chu-la",
+        "name_cs": "papírový drak",
+        "sound": "[l]",
+        "sound_fin": "[n]",
+        "class": "low",
+        "symbol": "ฬ"
+    },
+    {
+        "name": "อ อ่าง",
+        "name_rtgs": "o ang",
+        "name_cs": "nádrž",
+        "sound": "[ʔ]",
+        "sound_fin": "–",
+        "class": "mid",
+        "symbol": "อ"
+    },
+    {
+        "name": "ฮ นกฮูก",
+        "name_rtgs": "ho nok-huk",
+        "name_cs": "sova",
+        "sound": "[h]",
+        "sound_fin": "–",
+        "class": "low ",
+        "symbol": "ฮ"
+    }
+]
