@@ -43,7 +43,7 @@ suppress-bibliography: true
 
 # Hebrejská abeceda \texthebrew{אָלֶף־בֵּית עִבְרִי}
 
-Vyvinula se z Aramejského písma, které se rozšířilo v Perské říši (dynastie Achaimenovců). Aramejské písmo je následníkem písma Fénického, které se vyvinulo z písma Protosinajského, vzniklého z Egyptských hieroglyfů. Mezi další písma vzniklá z Aramejského písma patří písmo Nabatejců (ze kterého se vyvinulo Arabské písmo), Sogdské písmo (ze kterého pochází mj. Mongolské písmo) a písmo Bráhmí (ze kterého pochází velké množství písem jižní a jihovýchodní Asie). Pro zápis hebrejštiny nahradilo paleohebrejské písmo (vzniklé z Fénického písma), které zůstává do současnosti jako písmo Samaritánů. [@wiki_hebrew] [@wiki_aramaic]
+Vyvinula se z Aramejského písma, které se rozšířilo v Perské říši (dynastie Achaimenovců). Aramejské písmo je následníkem písma Fénického, které se vyvinulo z písma Protosinajského, vzniklého z Egyptských hieroglyfů. Mezi další písma vzniklá z Aramejského písma patří písmo Nabatejců (ze kterého se vyvinulo Arabské písmo), Sogdské písmo (ze kterého pochází mj. Mongolské písmo) a pravděpodobně i písmo Bráhmí (ze kterého pochází velké množství písem jižní a jihovýchodní Asie). Pro zápis hebrejštiny nahradilo paleohebrejské písmo (vzniklé z Fénického písma), které zůstává do současnosti jako písmo Samaritánů. [@wiki_hebrew] [@wiki_aramaic]
 
 ![Přibližná časová osa vývoje příbuzných písem](timeline-aramaic.svg)
 
