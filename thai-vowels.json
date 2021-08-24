@@ -1,0 +1,133 @@
+[
+    {
+        "name": "วิสรรชนีย์",
+        "name_rtgs": "Wisanchani",
+        "combinations": "◌ะ; ◌ัวะ; เ◌ะ; เ◌อะ; เ◌าะ; เ◌ียะ; เ◌ือะ; แ◌ะ; โ◌ะ",
+        "symbol": "ะ",
+        "note": "ze sanskrtského \\href{https://cs.wikipedia.org/wiki/Visarg}{visarjanīya}"
+    },
+    {
+        "name": "ไม้หันอากาศ",
+        "name_rtgs": "Mai han a-kat",
+        "combinations": "◌ั◌; ◌ัว; ◌ัวะ",
+        "symbol": "◌ั"
+    },
+    {
+        "name": "ไม้ไต่คู้",
+        "name_rtgs": "Mai tai khu",
+        "combinations": "◌็; ◌็อ◌; เ◌็◌; แ◌็◌",
+        "symbol": "◌็"
+    },
+    {
+        "name": "ลากข้าง",
+        "name_rtgs": "Lak khang",
+        "combinations": "◌า; ◌า◌; ◌ํา; เ◌า; เ◌าะ",
+        "symbol": "า"
+    },
+    {
+        "name": "พินทุอิ",
+        "name_rtgs": "Phinthu i",
+        "combinations": "◌ิ; เ◌ิ◌; ◌ี; ◌ี◌; เ◌ีย; เ◌ียะ; ◌ื◌; ◌ือ; เ◌ือ; เ◌ือะ",
+        "symbol": "◌ิ"
+    },
+    {
+        "name": "ฝนทอง",
+        "name_rtgs": "Fon thong",
+        "combinations": "◌ี; ◌ี◌; เ◌ีย; เ◌ียะ",
+        "symbol": "◌̍",
+        "no_thai": true,
+        "note": "vždy v kombinaci s phinthu i"
+    },
+    {
+        "name": "ฟันหนู",
+        "name_rtgs": "Fan nu",
+        "combinations": "◌ื◌; ◌ือ; เ◌ือ; เ◌ือะ",
+        "symbol": "◌̎",
+        "no_thai": true,
+        "note": "vždy v kombinaci s phinthu i"
+    },
+    {
+        "name": "นิคหิต",
+        "name_rtgs": "Nikkhahit",
+        "combinations": "◌ึ; ◌ึ◌; ◌ํา",
+        "symbol": "◌ํ"
+    },
+    {
+        "name": "ตีนเหยียด",
+        "name_rtgs": "Tin yiat",
+        "combinations": "◌ุ; ◌ุ◌",
+        "symbol": "◌ุ"
+    },
+    {
+        "name": "ตีนคู้",
+        "name_rtgs": "Tin khu",
+        "combinations": "◌ู; ◌ู◌",
+        "symbol": "◌ู"
+    },
+    {
+        "name": "ไม้หน้า",
+        "name_rtgs": "Mai na",
+        "combinations": "เ◌; เ◌◌; เ◌็◌; เ◌อ; เ◌อ◌; เ◌อะ; เ◌า; เ◌าะ; เ◌ิ◌; เ◌ีย; เ◌ีย◌; เ◌ียะ; เ◌ือ; เ◌ือ◌; เ◌ือะ; แ◌; แ◌◌; แ◌็◌; แ◌ะ",
+        "symbol": "เ"
+    },
+    {
+        "name": "ไม้โอ",
+        "name_rtgs": "Mai o",
+        "combinations": "โ◌; โ◌◌; โ◌ะ",
+        "symbol": "โ"
+    },
+    {
+        "name": "ไม้ม้วน",
+        "name_rtgs": "Mai muan",
+        "combinations": "ใ◌",
+        "symbol": "ใ"
+    },
+    {
+        "name": "ไม้มลาย",
+        "name_rtgs": "Mai malai",
+        "combinations": "ไ◌",
+        "symbol": "ไ"
+    },
+    {
+        "name": "ตัว อ",
+        "name_rtgs": "Tua o",
+        "combinations": "◌อ; ◌็อ◌; ◌ือ; เ◌อ; เ◌อ◌; เ◌อะ; เ◌ือ; เ◌ือะ",
+        "symbol": "อ"
+    },
+    {
+        "name": "ตัว ย",
+        "name_rtgs": "Tua yo",
+        "combinations": "เ◌ีย; เ◌ีย◌; เ◌ียะ",
+        "symbol": "ย"
+    },
+    {
+        "name": "ตัว ว",
+        "name_rtgs": "Tua wo",
+        "combinations": "◌ัว; ◌ัวะ",
+        "symbol": "ว"
+    },
+    {
+        "name": "ตัว ฤ",
+        "name_rtgs": "Tua rue",
+        "combinations": "ฤ",
+        "symbol": "ฤ"
+    },
+    {
+        "name": "ตัว ฤๅ",
+        "name_rtgs": "Tua rue",
+        "combinations": "ฤๅ",
+        "symbol": "ฤๅ"
+    },
+    {
+        "name": "ตัว ฦ",
+        "name_rtgs": "Tua lue",
+        "combinations": "ฦ",
+        "symbol": "ฦ"
+    },
+    {
+        "name": "ตัว ฦๅ",
+        "name_rtgs": "Tua lue",
+        "combinations": "ฦๅ ",
+        "symbol": "ฦๅ"
+    }
+]

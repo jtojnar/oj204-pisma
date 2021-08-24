@@ -32,6 +32,7 @@ final_deps = \
 	timeline-thai.svg \
 	lineage-thai.svg \
 	thai-consonants.json \
+	thai-vowels.json \
 	$(NULL)
 
 pisma.pdf pisma.tex: $(final_deps)

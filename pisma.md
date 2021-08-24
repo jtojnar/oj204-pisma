@@ -10,7 +10,7 @@ header-includes: |
 
     \setmainfont{Gentium Plus}
     \newfontfamily\hebrewfont[Renderer=HarfBuzz,Script=Hebrew, Scale=MatchUppercase, Ligatures=TeX]{David Libre}
-    \newfontfamily\thaifont[Script=Thai]{Sarabun}
+    \newfontfamily\thaifont[Renderer=HarfBuzz,Script=Thai]{IBM Plex Sans Thai Looped}
 
     \RequirePackage{pdfmanagement-testphase}
     \directlua{
@@ -166,6 +166,19 @@ Thajské písmo neobsahuje složené souhlásky, které jsou časté u ostatníc
 
 ## Samohlásky
 
+\begin{scriptsize}
+\begin{adjustwidth}{-1.95cm}{-1.95cm}
+\begin{luacode}
+local jsondata = load_json('thai-vowels.json')
+tex.print('\\begin{tabular}{|c|l|l|l|}')
+tex.print('\\hline Znak & Název & Poznámka & Kombinace \\\\ \\hline')
+for key, symbol in pairs(jsondata) do
+    tex.print((symbol.no_thai and "" or "\\textthai{") .. symbol.symbol .. (symbol.no_thai and "" or "}") .. " & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") & " .. (symbol.note or "") .. " & \\textthai{" .. symbol.combinations .. "} \\\\")
+end
+tex.print('\\hline\\end{tabular}')
+\end{luacode}
+\end{adjustwidth}
+\end{scriptsize}
 
 ## Příklad textu
 

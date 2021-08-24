@@ -62,10 +62,15 @@
             install -Dt "$out/share/fonts/truetype" "${david}/fonts/"*.ttf
           '';
 
+        ibm-plex =
+          pkgs.runCommand "ibm-plex" { } ''
+            # opentype/ directory does not seem to be supported.
+            install -Dt "$out/share/fonts/truetype" "${pkgs.ibm-plex}/share/fonts/opentype/"*.otf
+          '';
+
         fonts = [
           pkgs.gentium
-          # for sarabun
-          pkgs.google-fonts
+          ibm-plex
           david-libre
         ];
 
