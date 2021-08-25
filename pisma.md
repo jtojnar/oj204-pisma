@@ -126,6 +126,12 @@ V moderní hebrejštině se foném „šva“ (ə) nevyskytuje a pro tento úče
 
 \pagebreak
 
+## Čísla
+
+Hebrejské písmo nemá znaky pro číslice – běžně se používají hindsko-arabské číslice, ale v některých tradičních kontextech (hebrejský kalendář, označení ročníků ve škole, odrážky číslovaných seznamů, čísla veršů v Tóře…) se používají písmena hebrejské abecedy.
+
+Písmena \texthebrew{א‎} až \texthebrew{ט} reprezentují popořadě čísla 1–9, \texthebrew{י} až \texthebrew{צ} označují 10–90 a \texthebrew{ק} až \texthebrew{ת} čísla 100–400. Ostatní čísla se získají složením písmen podle jejich součtu – obvykle se opakovaně používá písmeno s největší hodnotou která se ještě vejde do čísla, které chce člověk zapsat. Později se začaly používat finální formy znaků pro čísla 500–900. [@wiki_hebnum][@i18nguy_hebcount]
+
 ## Příklad textu
 \texthebrew{בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ׃ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם׃ וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר׃ וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר׃ וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ׃ וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם אֶחָד׃ פ} [@genesis_he]
 
