@@ -108,7 +108,7 @@ tex.print('\\hline\\end{tabular}')
 
 (Kolečka reprezentují znaky, ke kterým se znaménka připojí.)
 
-V moderní hebrejštině je však preferováno naznačit samohlásky pomocí „slabých“ souhlásek: \hebrewfont{א‎}, \hebrewfont{ע‎}, \hebrewfont{י‎} a \hebrewfont{ו‎}. [@wiki_mater]
+V moderní hebrejštině je však pro vokalizovaný zápis preferováno naznačit samohlásky pomocí „slabých“ souhlásek: \hebrewfont{א‎}, \hebrewfont{ע‎}, \hebrewfont{י‎} a \hebrewfont{ו‎}. [@wiki_mater]
 
 `\end{multicols}`{=latex}
 `\end{multicols}`{=latex}
