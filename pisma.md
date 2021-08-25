@@ -184,6 +184,8 @@ tex.print('\\hline\\end{tabular}')
 \end{adjustwidth}
 \end{scriptsize}
 
+(Kolečka označují místo pro souhlásky.)
+
 ## Příklad textu
 
 \setlength{\columnsep}{-60pt}
