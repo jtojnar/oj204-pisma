@@ -164,7 +164,7 @@ tex.print('\\hline\\end{tabular}')
 \end{luacode}
 \end{adjustwidth}
 
-Název každé souhlásky obsahuje slovo, ve kterém je použita (dle akrofonického principu), pro rozlišení od ostatních stejně znějících hlásek.
+Pro rozlišení od ostatních stejně znějících hlásek a snazší učení obsahuje název každé souhlásky slovo, ve kterém je použita (dle akrofonického principu).
 
 Thajské písmo neobsahuje znaky pro složené souhlásky, které jsou časté u ostatních bráhmických písem (jako Barmské nebo Balijské) – slabiky tvořené skupinou souhlásek se zapisují pomocí souhlásek zapsaných vedle sebe obklopených znaky pro samohlásky.
 
