@@ -150,13 +150,13 @@ Thaiské písmo nemá odlišná malá a velká písmena. Obvykle se nepoužívaj
 
 ## Souhlásky
 
-\begin{adjustwidth}{-1.5cm}{-1.5cm}
+\begin{adjustwidth}{-0.85cm}{-0.85cm}
 \begin{luacode}
 local jsondata = load_json('thai-consonants.json')
-tex.print('\\begin{tabular}{|c|l|l|c|c|c|c|}')
-tex.print('\\hline Znak & Název & Význam & Znění & Fin. zn. & Skupina & Poznámka \\\\ \\hline')
+tex.print('\\begin{tabular}{|c|l|l|c|c|c|}')
+tex.print('\\hline Znak & Název & Význam & Znění & Fin. zn. & Poznámka \\\\ \\hline')
 for key, symbol in pairs(jsondata) do
-    tex.print("\\textthai{" .. symbol.symbol .. "} & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") & " .. symbol.name_cs .. " & " .. symbol.sound .. " & " .. symbol.sound_fin .. " & " .. symbol.class .. " & " .. (symbol.note or "") .. " \\\\")
+    tex.print("\\textthai{" .. symbol.symbol .. "} & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") & " .. symbol.name_cs .. " & " .. symbol.sound .. " & " .. symbol.sound_fin .. " & " .. (symbol.note or "") .. " \\\\")
 end
 tex.print('\\hline\\end{tabular}')
 \end{luacode}
