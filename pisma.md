@@ -162,7 +162,9 @@ tex.print('\\hline\\end{tabular}')
 \end{luacode}
 \end{adjustwidth}
 
-Thajské písmo neobsahuje složené souhlásky, které jsou časté u ostatních bráhmických písem (jako Barmské nebo Balijské).
+Název každé souhlásky obsahuje slovo, ve kterém je použita (dle akrofonického principu), pro rozlišení od ostatních stejně znějících hlásek.
+
+Thajské písmo neobsahuje znaky pro složené souhlásky, které jsou časté u ostatních bráhmických písem (jako Barmské nebo Balijské) – slabiky tvořené skupinou souhlásek se zapisují pomocí souhlásek zapsaných vedle sebe obklopených znaky pro samohlásky.
 
 ## Samohlásky
 
