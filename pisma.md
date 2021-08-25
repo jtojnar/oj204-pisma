@@ -131,6 +131,8 @@ V moderní hebrejštině se foném „šva“ (ə) nevyskytuje a pro tento úče
 
 \textczech{Na počátku stvořil Bůh nebe a zemi. A země byla houšť a poušť — a tma byla nad propastí, a duch Boží vznášel se nad vodami. I pravil Bůh: budiž světlo! — I bylo světlo. I viděl Bůh světlo, že jest dobré, a oddělil Bůh světlo ode tmy. A nazval Bůh světlo dnem a tmu nazval nocí; a byl večer a bylo ráno, den jeden.} [@genesis_cs]
 
+\pagebreak
+
 # Thajské písmo \textthai{อักษรไทย}
 
 Vyvinulo se ze Sukhothajského písma, které vzniklo zjednodušením písma Khmérského pro kursívu [@hartmann_1986], které bylo samotné adaptováno z písma Pallava, založeném na Tamilské variantě písma Bráhmí. Písmo Bráhmí pravděpodobně pochází z Aramejského písma. [@wiki_brahmi]  Dle legendy ho vytvořil v roce 1283 král Ram Khamhaeng veliký. [@wiki_thai] Jedná se o první písemný systém používající značky pro zapisování tónů. [@diller_1996]
