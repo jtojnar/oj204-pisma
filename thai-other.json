@@ -1,0 +1,88 @@
+[
+    {
+        "symbol": "◌็",
+        "name": "ไม้ไต่คู้",
+        "name_rtgs": "mai taikhu",
+        "description": "zkracuje samohlásku"
+    },
+    {
+        "symbol": "◌์",
+        "name": "ทัณฑฆาต/การันต์",
+        "name_rtgs": "thanthakhat/karan",
+        "description": "označuje vynechávané písmeno"
+    },
+    {
+        "symbol": "ฯ",
+        "name": "ไปยาลน้อย",
+        "name_rtgs": "pai-yan noi",
+        "description": "označuje zkratku"
+    },
+    {
+        "symbol": "ฯลฯ",
+        "name": "ไปยาลใหญ่",
+        "name_rtgs": "pai-yan yai",
+        "description": "„atd.“"
+    },
+    {
+        "symbol": "ๆ",
+        "name": "ไม้ยมก",
+        "name_rtgs": "mai ya-mok",
+        "description": "„ditto“"
+    },
+    {
+        "symbol": "๏",
+        "name": "ฟองมัน",
+        "name_rtgs": "fong man",
+        "description": "dříve označoval začátek věty, odstavce nebo sloky (zastaralé); nyní pouze označuje začátek sloky v básni; nyní také používán jako odrážka"
+    },
+    {
+        "symbol": "{\\fser ๏̎}",
+        "name": "ฟองมันฟันหนู",
+        "name_rtgs": "fong man fan nu",
+        "description": "\\multirow{2}*{dříve označoval začátek kapitoly (zastaralé)}",
+        "no_thai": true
+    },
+    {
+        "symbol": "{\\fser ๐̎}",
+        "name": "ฟองดัน",
+        "name_rtgs": "fong dan",
+        "description": "",
+        "no_thai": true
+    },
+    {
+        "symbol": "ฯ",
+        "name": "อังคั่นเดี่ยว",
+        "name_rtgs": "angkhan diao",
+        "description": "dříve označoval konec věty nebo sloky (zastaralé)"
+    },
+    {
+        "symbol": "๚",
+        "name": "อังคั่นคู่",
+        "name_rtgs": "angkhan khu",
+        "description": "označuje konec sloky; označuje konec kapitoly nebo dlouhé sekce"
+    },
+    {
+        "symbol": "ฯะ/๚ะ",
+        "name": "อังคั่นวิสรรชนีย์",
+        "name_rtgs": "angkhan wisanchani",
+        "description": "označuje konec sloky v básni"
+    },
+    {
+        "symbol": "๛",
+        "name": "โคมูตร, สูตรนารายณ์",
+        "name_rtgs": "khomut, sutnarai",
+        "description": "označuje konec kapitoly nebo dokumentu; označuje konec příběhu"
+    },
+    {
+        "symbol": "๚ะ๛",
+        "name": "อังคั่นวิสรรชนีย์โคมูตร",
+        "name_rtgs": "angkhan wisanchani khomut",
+        "description": "označuje úplný konec psaného díla"
+    },
+    {
+        "symbol": "฿",
+        "name": "บาท",
+        "name_rtgs": "bat",
+        "description": "symbol thajského bahtu"
+    }
+]

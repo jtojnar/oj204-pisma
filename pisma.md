@@ -12,7 +12,9 @@ header-includes: |
     \setmainfont{Gentium Plus}
     \newfontfamily\hebrewfont[Renderer=HarfBuzz,Script=Hebrew, Scale=MatchUppercase, Ligatures=TeX]{David Libre}
     \newfontfamily\thaifont[Renderer=HarfBuzz,Script=Thai]{IBM Plex Sans Thai Looped}
+    \newfontfamily\fser[Renderer=HarfBuzz,Script=Thai]{Freeserif}
 
+    \usepackage{tabulary}
     \usepackage{multirow}
 
     \RequirePackage{pdfmanagement-testphase}
@@ -237,6 +239,19 @@ end
 tex.print('\\hline\\end{tabular}')
 \end{luacode}
 \end{center}
+
+## Diakritika a ostatní symboly
+
+\renewcommand{\arraystretch}{1.5}
+\begin{luacode}
+local jsondata = load_json('thai-other.json')
+tex.print('\\begin{tabulary}{\\textwidth}{|c|l|L|}')
+tex.print('\\hline Symbol & Název & Popis \\\\ \\hline')
+for key, symbol in pairs(jsondata) do
+    tex.print((symbol.no_thai and "" or "\\textthai{") .. symbol.symbol .. (symbol.no_thai and "" or "}") .. " & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") & " .. symbol.description .. " \\\\")
+end
+tex.print('\\hline\\end{tabulary}')
+\end{luacode}
 
 
 ## Příklad textu
