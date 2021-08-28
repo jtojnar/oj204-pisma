@@ -1,0 +1,34 @@
+[
+    {
+        "name": "ไม้เอก",
+        "name_rtgs": "Mai ek",
+        "symbol": "◌่",
+        "low": "klesající",
+        "mid": "nízký",
+        "high": "nízký"
+    },
+    {
+        "name": "ไม้โท",
+        "name_rtgs": "Mai tho",
+        "symbol": "◌้",
+        "low": "vysoký",
+        "mid": "klesající",
+        "high": "klesající"
+    },
+    {
+        "name": "ไม้ตรี",
+        "name_rtgs": "Mai tri",
+        "symbol": "◌๊",
+        "low": "-",
+        "mid": "vysoký",
+        "high": "-"
+    },
+    {
+        "name": "ไม้จัตวา",
+        "name_rtgs": "Mai chattawa",
+        "symbol": "◌๋",
+        "low": "-",
+        "mid": "stoupající",
+        "high": "-"
+    }
+]

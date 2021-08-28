@@ -34,6 +34,7 @@ final_deps = \
 	lineage-thai.svg \
 	thai-consonants.json \
 	thai-vowels.json \
+	thai-tones.json \
 	$(NULL)
 
 pisma.pdf pisma.tex: $(final_deps)

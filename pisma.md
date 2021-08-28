@@ -12,6 +12,8 @@ header-includes: |
     \newfontfamily\hebrewfont[Renderer=HarfBuzz,Script=Hebrew, Scale=MatchUppercase, Ligatures=TeX]{David Libre}
     \newfontfamily\thaifont[Renderer=HarfBuzz,Script=Thai]{IBM Plex Sans Thai Looped}
 
+    \usepackage{multirow}
+
     \RequirePackage{pdfmanagement-testphase}
     \directlua{
     --[[ Preserve links from imported packages ]]
@@ -200,6 +202,24 @@ tex.print('\\hline\\end{tabular}')
 Samohlásku lze vynechat a pak se použije inherentní samohláska, obvykle /a/ pro otevřené a /o/ pro zavřené slabiky.
 
 Mnohé znaky, se používají téměř výhradně pro zápis liturgických textů v sanskrtu či jazyce páli a např. \textthai{ฦ} a \textthai{ฦๅ} jsou i v těchto jazycích vzácná.
+
+## Tóny
+
+Thajština poskytuje v zápisu kompletní informaci o tónu – odvíjí se od třídy počáteční souhlásky (nízká/střední/vysoká), délky samohlásky, konečné souhlásky a, pokud je přítomna, jedné ze čtyř tónových značek. Jejich jména jsou odvozena od číslovek jedna až čtyři v sanskrtu nebo páli.
+
+\begin{center}
+\begin{luacode}
+local jsondata = load_json('thai-tones.json')
+tex.print('\\begin{tabular}{|c|l|l|l|l|}')
+tex.print('\\hline \\multirow{2}*{Znaménko} & \\multirow{2}*{Název} & \\multicolumn{3}{c|}{Tón} \\\\')
+tex.print('\\cline{3-5}')
+tex.print('& & Nízká & Střední & Vysoká \\\\ \\hline')
+for key, symbol in pairs(jsondata) do
+    tex.print("\\textthai{" .. symbol.symbol .. "} & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") & " .. symbol.low .. "& " .. symbol.mid .. "& " .. symbol.high .. " \\\\")
+end
+tex.print('\\hline\\end{tabular}')
+\end{luacode}
+\end{center}
 
 
 ## Příklad textu
