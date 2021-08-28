@@ -195,7 +195,12 @@ tex.print('\\hline\\end{tabular}')
 \end{adjustwidth}
 \end{scriptsize}
 
-(Kolečka označují místo pro souhlásky.)
+(Kolečka označují místo pro souhlásky, druhé případně i pro koncovou souhlásku.)
+
+Samohlásku lze vynechat a pak se použije inherentní samohláska, obvykle /a/ pro otevřené a /o/ pro zavřené slabiky.
+
+Mnohé znaky, se používají téměř výhradně pro zápis liturgických textů v sanskrtu či jazyce páli a např. \textthai{ฦ} a \textthai{ฦๅ} jsou i v těchto jazycích vzácná.
+
 
 ## Příklad textu
 
