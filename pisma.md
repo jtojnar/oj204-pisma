@@ -204,7 +204,7 @@ tex.print('\\hline\\end{tabular}')
 
 Samohlásku lze vynechat a pak se použije inherentní samohláska, obvykle /a/ pro otevřené a /o/ pro zavřené slabiky.
 
-Mnohé znaky, se používají téměř výhradně pro zápis liturgických textů v sanskrtu či jazyce páli a např. \textthai{ฦ} a \textthai{ฦๅ} jsou i v těchto jazycích vzácná.
+Mnohé znaky, se používají téměř výhradně pro zápis liturgických textů v sanskrtu či jazyce páli. A např. \textthai{ฦ} a \textthai{ฦๅ} jsou i v těchto jazycích vzácná.
 
 ## Tóny
 
