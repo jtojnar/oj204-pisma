@@ -26,6 +26,7 @@ final_deps = \
 	pisma.md \
 	pisma.bib \
 	timeline-aramaic.svg \
+	lineage-hebrew.svg \
 	hebrew-consonants.json \
 	hebrew-nikud.json \
 	thai.bib \

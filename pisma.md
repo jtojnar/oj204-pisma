@@ -17,6 +17,7 @@ header-includes: |
     --[[ Preserve links from imported packages ]]
     require("newpax")
     newpax.writenewpax("timeline-aramaic")
+    newpax.writenewpax("lineage-hebrew")
     newpax.writenewpax("lineage-thai")
     newpax.writenewpax("timeline-thai")
     }
@@ -54,6 +55,8 @@ Vyvinula se z Aramejského písma, které se rozšířilo v Perské říši (dy
 Používá se k zápisu hebrejštiny a dalších jazyků Židů (jidiš, judeo-arabština…), zejména na území Izraele, ale i jinde po světě, díky početné židovské diaspoře.
 
 Má 22 znaků, u kterých se nerozlišuje velikost písmen; pět z nich má odlišnou formu zápisu na konci slova. Jedná se o souhláskové písmo (abdžad), ale existují způsoby zápisu samohlásek pomocí diakritických znamének. Zapisuje se horizontálně zprava doleva.
+
+![Částečný rodokmen hebrejského písma](lineage-hebrew.svg)
 
 `\begin{multicols}{2}`{=latex}
 

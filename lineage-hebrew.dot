@@ -1,0 +1,19 @@
+digraph {
+Hiero [label="Hieroglyfické" href="https://en.wikipedia.org/wiki/Egyptian_hieroglyphs"]
+    ProSin [label="Protosinajské" href="https://en.wikipedia.org/wiki/Proto-Sinaitic_script"]
+        Phoe [label="Fénické" href="https://en.wikipedia.org/wiki/Phoenician_alphabet"]
+            PaHe [label="Paleohebrejské" href="https://en.wikipedia.org/wiki/Paleo-Hebrew_alphabet"]
+                Sam [label="Samaritánské" href="https://en.wikipedia.org/wiki/Samaritan_script"]
+            Aram [label="Aramejské" href="https://en.wikipedia.org/wiki/Arameic_script"]
+                Hebr [label="Hebrejské" href="https://en.wikipedia.org/wiki/Hebrew_alphabet"]
+                Nabat [label="Nabatejské" href="https://en.wikipedia.org/wiki/Nabataean_alphabet"]
+                    Arab [label="Arabské" href="https://en.wikipedia.org/wiki/Arabic_script"]
+                Brah [label="Bráhmí" href="https://en.wikipedia.org/wiki/Brahmi_script"]
+            Greek [label="Řecké" href="https://en.wikipedia.org/wiki/Greek_alphabet"]
+
+Hiero -> ProSin -> Phoe -> PaHe -> Sam
+                   Phoe -> Aram -> Hebr
+                           Aram -> Nabat -> Arab
+                           Aram -> Brah
+                   Phoe -> Greek
+}
