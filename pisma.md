@@ -221,6 +221,22 @@ tex.print('\\hline\\end{tabular}')
 \end{luacode}
 \end{center}
 
+## Čísla
+
+Díky rozsáhlé westernizaci se běžně používají hindsko-arabské číslice. Thajština má však vlastní číslice, které se používají stejným způsobem (dekadický poziční zápis). [@wiki_thainum]
+
+\begin{center}
+\begin{luacode}
+local jsondata = load_json('thai-numbers.json')
+tex.print('\\begin{tabular}{|c|c|l|}')
+tex.print('\\hline Symbol & Číslo & Název \\\\ \\hline')
+for key, symbol in pairs(jsondata) do
+    tex.print("\\textthai{" .. symbol.symbol .. "} & " .. symbol.number .. " & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") \\\\")
+end
+tex.print('\\hline\\end{tabular}')
+\end{luacode}
+\end{center}
+
 
 ## Příklad textu
 

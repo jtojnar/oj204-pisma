@@ -35,6 +35,7 @@ final_deps = \
 	thai-consonants.json \
 	thai-vowels.json \
 	thai-tones.json \
+	thai-numbers.json \
 	$(NULL)
 
 pisma.pdf pisma.tex: $(final_deps)

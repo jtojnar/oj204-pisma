@@ -1,0 +1,62 @@
+[
+    {
+        "number": "0",
+        "symbol": "๐",
+        "name": "ศูนย์",
+        "name_rtgs": "sun"
+    },
+    {
+        "number": "1",
+        "symbol": "๑",
+        "name": "หนึ่ง",
+        "name_rtgs": "nueng"
+    },
+    {
+        "number": "2",
+        "symbol": "๒",
+        "name": "สอง",
+        "name_rtgs": "song"
+    },
+    {
+        "number": "3",
+        "symbol": "๓",
+        "name": "สาม",
+        "name_rtgs": "sam"
+    },
+    {
+        "number": "4",
+        "symbol": "๔",
+        "name": "สี่",
+        "name_rtgs": "si"
+    },
+    {
+        "number": "5",
+        "symbol": "๕",
+        "name": "ห้า",
+        "name_rtgs": "ha"
+    },
+    {
+        "number": "6",
+        "symbol": "๖",
+        "name": "หก",
+        "name_rtgs": "hok"
+    },
+    {
+        "number": "7",
+        "symbol": "๗",
+        "name": "เจ็ด",
+        "name_rtgs": "chet"
+    },
+    {
+        "number": "8",
+        "symbol": "๘",
+        "name": "แปด",
+        "name_rtgs": "paet"
+    },
+    {
+        "number": "9",
+        "symbol": "๙",
+        "name": "เก้า",
+        "name_rtgs": "kao"
+    }
+]
