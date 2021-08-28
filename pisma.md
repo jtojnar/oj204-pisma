@@ -167,7 +167,7 @@ Thajské písmo nemá odlišná malá a velká písmena. Obvykle se nepoužívaj
 \begin{luacode}
 local jsondata = load_json('thai-consonants.json')
 tex.print('\\begin{tabular}{|c|l|l|c|c|c|}')
-tex.print('\\hline Znak & Název & Význam & Znění & Fin. zn. & Poznámka \\\\ \\hline')
+tex.print('\\hline Znak & Název & Význam & Znění & Konec slabiky & Poznámka \\\\ \\hline')
 for key, symbol in pairs(jsondata) do
     tex.print("\\textthai{" .. symbol.symbol .. "} & \\textthai{" .. symbol.name .. "} (" .. symbol.name_rtgs .. ") & " .. symbol.name_cs .. " & " .. symbol.sound .. " & " .. symbol.sound_fin .. " & " .. (symbol.note or "") .. " \\\\")
 end
