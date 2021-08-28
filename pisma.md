@@ -71,7 +71,7 @@ tex.print('\\hline\\end{tabular}')
 \end{luacode}
 \end{center}
 
-Uváděná výslovnost odpovídá moderní standardní hebrejštině používané v Izraeli. V kulatých závorkách je uvedena výslovnost formy znaku s diakritickým znaménkem dageš (viz dále).
+Uváděná výslovnost odpovídá moderní standardní hebrejštině používané v Izraeli. V kulatých závorkách je uvedena výslovnost formy znaku s diakritickým znaménkem dageš (vizte dále).
 
 \columnbreak
 
@@ -154,7 +154,7 @@ Používá se k zápisu thajštiny, jejích dialektů a jazyků některých etn
 
 Zapisuje se horizontálně zleva doprava. Jedná se o tzv. abugidu, kde jednotlivé znaky obvykle reprezentují slabiky, tvořené souhláskou doplněnou o samohlásky ve formě znamének psanými nad, pod, nalevo nebo napravo od souhlásky, případně kombinací těchto možností. Obsahuje 44 symbolů pro souhlásky, 16 pro samohlásky (které lze kombinovat do alespoň 32 různých forem) a čtyři diakritická znaménka pro tóny.
 
-Thaiské písmo nemá odlišná malá a velká písmena. Obvykle se nepoužívají mezery mezi slovy. Mezery se používají k oddělování významných pauz (např. mezi větami).
+Thajské písmo nemá odlišná malá a velká písmena. Obvykle se nepoužívají mezery mezi slovy. Mezery se používají k oddělování významných pauz (např. mezi větami).
 
 ## Souhlásky
 
