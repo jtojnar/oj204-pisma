@@ -1,6 +1,7 @@
 ---
 title: Seminární práce – OJ204 Písma světa
 author: Jan Tojnar, učo 433301
+colorlinks: true
 header-includes: |
     \usepackage{keep-footnotes-inside-nested-multicols}
     \usepackage{polyglossia}
