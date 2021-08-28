@@ -152,7 +152,9 @@ Používá se k zápisu thajštiny, jejích dialektů a jazyků některých etn
 
 ![Částečný rodokmen jižní větve písem rodiny Bráhmí [@wiki_brahmic]](lineage-thai.svg)
 
-Zapisuje se horizontálně zleva doprava. Jedná se o tzv. abugidu, kde jednotlivé znaky obvykle reprezentují slabiky, tvořené souhláskou doplněnou o samohlásky ve formě znamének psanými nad, pod, nalevo nebo napravo od souhlásky, případně kombinací těchto možností. Obsahuje 44 symbolů pro souhlásky, 16 pro samohlásky (které lze kombinovat do alespoň 32 různých forem) a čtyři diakritická znaménka pro tóny.
+Zapisuje se horizontálně zleva doprava. Jedná se o tzv. abugidu, kde jednotlivé znaky obvykle reprezentují slabiky, tvořené souhláskou doplněnou o samohlásky ve formě znamének psanými nad, pod, nalevo nebo napravo od souhlásky, případně kombinací těchto možností. Obsahuje 44 symbolů pro souhlásky, 21 pro samohlásky[^thai_vowel_count] (které lze kombinovat do alespoň 32 různých forem) a čtyři diakritická znaménka pro tóny.
+
+[^thai_vowel_count]: Přesný počet závisí na zdroji, vizte [diskusi u článku Thai Script na anglické Wikipedii](https://en.wikipedia.org/w/index.php?title=Talk:Thai_script&oldid=976305168#Vowel_Count).
 
 Thajské písmo nemá odlišná malá a velká písmena. Obvykle se nepoužívají mezery mezi slovy. Mezery se používají k oddělování významných pauz (např. mezi větami).
 
